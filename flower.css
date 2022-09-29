@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,css{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1517816743773-6e0fd518b4a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+
+}
+#main{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    }
+::-webkit-scrollbar{
+    display: none;
+}
+#top-nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 120px;
+    width: 100%;
+}
+#left-text{
+    margin-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#left-text h1{
+    font-size: 22px;
+}
+#center-text{
+    display: flex;
+    gap: 15px;
+}
+#center-text h1{
+   
+    font-size: 22px;
+}
+#right-text{
+    display: flex;
+    margin-right: 27px;
+    gap: 5px;
+}
+.search{
+    font-size: 20px;
+}
+.setting{
+    font-size: 30px;
+}
+#bottom-nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    bottom: 0%;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+#dp-div{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 25px;
+}
+#bottom-right{
+    margin-right: 25px;
+}
+#dp-div h1{
+    margin-left: 5px;
+    font-size: 22px;
+}
+#photu{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  overflow: hidden;
+}
+.arrow{
+    font-size: 30px;
+}
+#center-circle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(172, 158, 163);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 0%;
+}
+#center-circle img{
+    height: 200%;
+    z-index: 99;
+}
+#center-circle h1{
+    position: absolute;
+    font-size: 200px;
+   font-weight:430;
+   letter-spacing: 2px;
+    font-family: gilroy;
+}
+
+#center-circle2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgb(217, 141, 167);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#center-circle2 img{
+    height: 120%;
+    z-index: 99;
+}
+#center-circle2 h1{
+    position: absolute;
+    font-size: 255px;
+    letter-spacing: 4px;
+   font-weight:300px;
+    font-family: gilroy;
+}
+#photu img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+#img2{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
